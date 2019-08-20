@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <translationContributors>Sir Binary(Hulapyk)</translationContributors>
+
+    <texts>
+        <text name="configuration_buyableGPS" text="Global Positions System"/>
+        <text name="configuration_buyableGPS_withoutGPS" text="Nej"/>
+        <text name="configuration_buyableGPS_withGPS" text="Ja"/>
+
+        <!--Inputs-->
+        <text name="input_GS_TOGGLE" text="GS: Aktiver/deaktiver guidet styring"/>
+        <text name="input_GS_SHOW_UI" text="GS: Vis guidet styrings menu"/>
+        <text name="input_GS_SET_AUTO_WIDTH" text="GS: Auto Bredde"/>
+
+        <text name="input_GS_AXIS_REALIGN" text="GS: Juster bane"/>
+        <text name="input_GS_AXIS_SHIFT_1" text="GS: Kør bane til højre"/>
+        <text name="input_GS_AXIS_SHIFT_2" text="GS: Kør bane til venstre"/>
+        <text name="input_GS_AXIS_WIDTH_1" text="GS: Udvid bane bredde"/>
+        <text name="input_GS_AXIS_WIDTH_2" text="GS: Reducer bane bredde"/>
+
+        <text name="input_GS_ENABLE_STEERING" text="GS: Guided styring"/>
+        <text name="input_GS_SETPOINT" text="GS: Sæt guide punkt"/>
+        <text name="input_GS_TOGGLE_TERRAIN_ANGLE_SNAP" text="GS: Lås til terrænvinkel"/>
+        <text name="input_GS_TURN_STEERING" text="GS: Sæt styringskurs"/>
+
+        <!--Warnings-->
+        <text name="guidanceSteering_warning_dropDistance" text="Kør mindst 15m for at sætte punkt B. Kørt distance: %.2f"/>
+        <text name="guidanceSteering_warning_setWidth" text="Sæt en arbejdsbredde først!"/>
+        <text name="guidanceSteering_warning_createTrackFirst" text="Lav eller vælg en bane først!"/>
+
+        <!--GUI-->
+        <text name="guidanceSteering_ui_settings" text="Guide indstillinger"/>
+        <text name="guidanceSteering_ui_strategy" text="Guide strategi"/>
+
+        <text name="guidanceSteering_strategy_abStraight" text="AB Lige"/>
+        <text name="guidanceSteering_strategy_abCurve" text="AB Kurvet"/>
+
+        <text name="guidanceSteering_strategyMethod_aPlusB" text="A+B"/>
+        <text name="guidanceSteering_strategyMethod_autoB" text="Auto B"/>
+        <text name="guidanceSteering_strategyMethod_aPlusHeading" text="A+Retning"/>
+
+        <!--Tooltips-->
+        <text name="guidanceSteering_tooltip_showLines" text="Gør det nemmere ved at vise hjælpelinjer"/>
+        <text name="guidanceSteering_tooltip_terrainAngleSnap" text="Lås retningen til terrænvinkel"/>
+        <text name="guidanceSteering_tooltip_enableGuidanceSteering" text="Lad GPSen styre"/>
+        <text name="guidanceSteering_tooltip_autoInvertOffset" text="Juster automatisk afvigelsen ved et sving"/>
+        <text name="guidanceSteering_tooltip_width" text="Sæt bredden på dit køretøj"/>
+        <text name="guidanceSteering_tooltip_offsetWidth" text="Sæt afvigelsen af dit køretøj"/>
+        <text name="guidanceSteering_tooltip_widthInCrement" text="Sæt størrelsen for at øge/reducere bredden"/>
+        <text name="guidanceSteering_tooltip_offsetIncrement" text="Sæt størrelsen for at øge/reducere afvigelsen"/>
+
+        <text name="guidanceSteering_tooltip_strategy" text="Vælg hvilken strategi der bruges til at lave guidelinjer"/>
+        <text name="guidanceSteering_tooltip_strategyMethod" text="Vælg hvilken strategimetode der bruges"/>
+        <text name="guidanceSteering_tooltip_currentTrack" text="Vælg den nuværende bane til brug"/>
+        <text name="guidanceSteering_tooltip_cardinals" text="Sæt verdenshjørnepunkt"/>
+
+        <!--Warning tooltip-->
+        <text name="guidanceSteering_tooltip_trackAlreadyExists" text="Banenavn '%s' findes allerede!"/>
+        <text name="guidanceSteering_tooltip_trackIsNotCreated" text="Gem af banedata fejlede, lav eller indlæs en bane først!"/>
+
+        <!--Settings-->
+        <text name="guidanceSteering_setting_showLines" text="Vis linjer"/>
+        <text name="guidanceSteering_setting_terrainAngleSnap" text="Lås terræn vinkel"/>
+        <text name="guidanceSteering_setting_enableGuidanceSteering" text="Aktiver guidet styring"/>
+        <text name="guidanceSteering_setting_autoInvertOffset" text="Vend afvigelse"/>
+        <text name="guidanceSteering_setting_width" text="Bredde"/>
+        <text name="guidanceSteering_setting_widthIncrement" text="Bredde justeringsstørrelse"/>
+        <text name="guidanceSteering_setting_offsetIncrement" text="Afvigelses justeringsstørrelse"/>
+        <text name="guidanceSteering_setting_autoWidth" text="Automatisk bredde"/>
+        <text name="guidanceSteering_setting_invertOffset" text="Vend afvigelse"/>
+        <text name="guidanceSteering_setting_changeWidth" text="Justér bredde"/>
+        <text name="guidanceSteering_setting_offsetWidth" text="Afvigelses bredde"/>
+        <text name="guidanceSteering_setting_resetOffsetWidth" text="Nulstil afvigelse"/>
+        <text name="guidanceSteering_setting_changeOffsetWidth" text="Justér afvigelse"/>
+        <text name="guidanceSteering_setting_cardinals" text="Verdenshjørne"/>
+        <text name="guidanceSteering_setting_invertOffset" text="Vend afvigelse"/>        
+
+        <text name="guidanceSteering_setting_strategy" text="Linjestrategi"/>
+        <text name="guidanceSteering_setting_strategyMethod" text="Linjemetode"/>
+        <text name="guidanceSteering_setting_currentTrack" text="Nuværende bane"/>
+
+        <text name="guidanceSteering_setting_pointA" text="Sæt A"/>
+        <text name="guidanceSteering_setting_pointB" text="Sæt B"/>
+        <text name="guidanceSteering_setting_newTrack" text="Ny bane"/>
+        <text name="guidanceSteering_setting_removeTrack" text="Fjern bane"/>
+        <text name="guidanceSteering_setting_saveTrack" text="Gem bane"/>
+
+        <text name="guidanceSteering_setting_headlandMode" text="Headlandindstilling"/>
+        <text name="guidanceSteering_tooltip_headlandMode" text="Med Headlandinstillingen kan du sætte den aktive strategi for headlandbanen."/>
+
+        <text name="guidanceSteering_setting_headlandDistance" text="Headland virkningsdistance"/>
+        <text name="guidanceSteering_tooltip_headlandDistance" text="Distance i meter før virkningen af headland."/>
+
+        <text name="guidanceSteering_headland_mode_0" text="Sluk"/>
+        <text name="guidanceSteering_headland_mode_1" text="Stop"/>
+        <text name="guidanceSteering_headland_mode_2" text="Drej til venstre"/>
+        <text name="guidanceSteering_headland_mode_3" text="Drej til højre"/>
+    </texts>
+</l10n>
